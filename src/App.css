@@ -17,7 +17,12 @@
 }
 
 h1{
-  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+h2 {
+  padding: 5px;
 }
 
 ul {
@@ -52,8 +57,14 @@ a:hover {
   border-radius: 200px;
 }
 
-.project-gallery {
-  display: flex;
-  display: block;
-  justify-content: center;
+/* .project-gallery {
+  background-color: lightgray;
+} */
+
+span {
+  color: darkgrey;
+}
+
+span:hover {
+  color: pink;
 }
